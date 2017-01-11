@@ -1,0 +1,12 @@
+<center>
+<h1>Hot Reads!</h1>
+</center>
+
+<ol id="hot-reads">
+  <% @hotreads.each do |read| %>
+  <li class='hot-read'>
+    <a href="<%= read.url %>"><%= read.url %></a> | Hits: <%= read.hits %>
+  </li>
+  <% end %>
+</ol>
+<img src="https://m.popkey.co/4c7272/QL6mJ.gif">
