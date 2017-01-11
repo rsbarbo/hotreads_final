@@ -10,10 +10,4 @@ class Api::V1::HotreadsController < ApplicationController
     @read = Read.create(title: params['link']['title'],
                         url: params['link']['url'])
   end
-
-  private
-
-  def link_params
-    params.require(:link).permit(:title, :url)
-  end
 end
