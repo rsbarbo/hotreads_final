@@ -1,24 +1,10 @@
-# README
+## HotReads
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Second application to our URLock Box Application, this application fulfills the following requirements:
 
-Things you may want to cover:
+1. When a link in [URLockbox](https://github.com/rsbarbo/URLockbox) is "read", the link's info is automatically sent to Hot Reads Application.
 
-* Ruby version
+2. Hot Reads will create a record of the "read" links.
 
-* System dependencies
+3. As an unauthenticated user, I can visit the Hot Reads main index page and see a list of the top-10 most-read URLs across all users (ActiveRecord sorted out). Only reads from the last 24 hours should count towards the ranking.
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
